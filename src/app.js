@@ -1,7 +1,10 @@
+const model = require('model');
+
 const port = 8000;
 const express = require("express");
 const app = express();
 
+model.load();
 
 app.use(express.static('www'));
 
