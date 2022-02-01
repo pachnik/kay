@@ -1,5 +1,16 @@
 {
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Úvod do problematiky Nodových aplikací, zejména HTTP serverů využívajících knihovnu Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "web": "node src/app.js"
+  },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "simple-json-db": "^1.2.3"
   }
 }
